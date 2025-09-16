@@ -8,7 +8,9 @@ const App = () => {
       <div className='bg-blue-950'>
      <NavBar/>
       </div>
+      <div>
      <Hero/>
+      </div>
     <Footer/>
     </div>
   )
