@@ -4,7 +4,7 @@ import Footer from '../Components/Footer'
 import Skills from '../Components/Skills'
 import About from '../Components/About'
 import Projects from '../Components/Projects'
-
+import Form from '../Components/Form'
 const App = () => {
   return (
     <div className='flex flex-col bg-[#F0F8FF] bg-cover w-full'>
@@ -22,6 +22,9 @@ const App = () => {
       </div>
       <div className='w-full px-5'>
         <Projects/>
+      </div>
+      <div className='bg-[#d3e1ee]'>
+        <Form/>
       </div>
       <div className='bg-purple-950 w-full px-5'>
     <Footer/>
