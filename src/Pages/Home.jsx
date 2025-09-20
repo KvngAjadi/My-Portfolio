@@ -11,19 +11,19 @@ const App = () => {
       <div className=''>
      <NavBar/>
       </div>
-      <div className="relative h-auto bg-purple-950 flex justify-center items-center md:pt-20 pt-10 md:px-5 md:px-20 [background-size:contain, cover]">
+      <div className="relative h-auto bg-purple-950 flex justify-center items-center w-full md:pt-20 pt-10 px-5 md:px-20 [background-size:contain, cover]">
      <Hero/>
       </div>
-      <div className='w-full'>
+      <div className='w-full px-5'>
         <Skills/>
       </div>
-      <div className='w-full'>
+      <div className='w-full px-5'>
         <About/>
       </div>
-      <div className='w-full'>
+      <div className='w-full px-5'>
         <Projects/>
       </div>
-      <div className='bg-purple-950 w-full'>
+      <div className='bg-purple-950 w-full px-5'>
     <Footer/>
       </div>
     </div>
