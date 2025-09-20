@@ -1,30 +1,21 @@
-import NavBar from './Components/NavBar'
-import Hero from './Components/Hero'
-import Footer from './Components/Footer'
-import Skills from './Components/Skills'
-import About from './Components/About'
-import Projects from './Components/Projects'
+import React from 'react'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import Home from './Pages/Home'
+import AboutMe from './Pages/AboutMe'
+import Resume from './Pages/Resume'
+import Portfolio from './Pages/Portfolio'
+
 
 const App = () => {
   return (
-    <div className='flex flex-col bg-purple-200 bg-cover'>
-      <div className=''>
-     <NavBar/>
-      </div>
-      <div className="relative h-auto bg-purple-950 flex justify-center items-center md:pt-20 pt-10 px-5 md:px-20 [background-size:contain, cover]">
-     <Hero/>
-      </div>
-      <div className=''>
-        <Skills/>
-      </div>
-      <div className=''>
-        <About/>
-      </div>
-      <div>
-        <Projects/>
-      </div>
-    <Footer/>
-    </div>
+    <BrowserRouter>
+    <Routes>
+      <Route path='/' element={<Home/>}/>
+      <Route path='/aboutMe' element={<AboutMe/>}/>
+      <Route path='/resume' element={<Resume/>}/>
+      <Route path='/portfolio' element={<Portfolio/>}/>
+    </Routes>
+    </BrowserRouter>
   )
 }
 

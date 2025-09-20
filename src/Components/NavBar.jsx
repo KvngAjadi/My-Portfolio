@@ -18,30 +18,30 @@ const NavBar = () => {
 
         {/* Desktop Menu */}
         <div className="hidden md:flex flex-row items-center gap-10 font-space font-semibold text-white">
-          <a
-            href="#home"
+          <NavLink
+            to="/"
             className="transition delay-50 duration-300 ease-in-out hover:translate-y-1 hover:scale-110"
           >
             Home
-          </a>
-          <a
-            href="#about"
+          </NavLink>
+          <NavLink
+            to="/aboutMe"
             className="transition delay-50 duration-300 ease-in-out hover:translate-y-1 hover:scale-110"
           >
             About Me
-          </a>
-          <a
-            href="#services"
+          </NavLink>
+          <NavLink
+            to="/resume"
             className="transition delay-50 duration-300 ease-in-out hover:translate-y-1 hover:scale-110"
           >
             Resume
-          </a>
-          <a
-            href="#contact"
+          </NavLink>
+          <NavLink
+            to="/portfolio"
             className="transition delay-50 duration-300 ease-in-out hover:translate-y-1 hover:scale-110"
           >
             Portfolio
-          </a>
+          </NavLink>
         </div>
 
         {/* Mobile Hamburger */}
@@ -51,39 +51,39 @@ const NavBar = () => {
           </button>
         </div>
 
-      {/* Mobile Dropdown Menu */}
-      {isOpen && (
-        <div className="md:hidden bg-purple-950 flex flex-col items-center gap-6 py-6 font-space font-semibold text-white shadow-lg fixed top-16 left-0 w-full z-40 transition-all duration-300">
-          <a
-            href="#home"
-            onClick={() => setIsOpen(false)}
-            className="hover:text-blue-400"
+        {/* Mobile Dropdown Menu */}
+        {isOpen && (
+          <div className="md:hidden bg-purple-950 flex flex-col items-center gap-6 py-6 font-space font-semibold text-white shadow-lg fixed top-16 left-0 w-full z-40 transition-all duration-300">
+            <NavLink
+              to="/home"
+              onClick={() => setIsOpen(false)}
+              className="hover:text-blue-400"
             >
-            Home
-          </a>
-          <a
-            href="#about"
-            onClick={() => setIsOpen(false)}
-            className="hover:text-blue-400"
+              Home
+            </NavLink>
+            <NavLink
+              to="/aboutMe"
+              onClick={() => setIsOpen(false)}
+              className="hover:text-blue-400"
             >
-            About Me
-          </a>
-          <a
-            href="#services"
-            onClick={() => setIsOpen(false)}
-            className="hover:text-blue-400"
+              About Me
+            </NavLink>
+            <NavLink
+              to="/resume"
+              onClick={() => setIsOpen(false)}
+              className="hover:text-blue-400"
             >
-            Resume
-          </a>
-          <a
-            href="#contact"
-            onClick={() => setIsOpen(false)}
-            className="hover:text-blue-400"
+              Resume
+            </NavLink>
+            <NavLink
+              to="/portfolio"
+              onClick={() => setIsOpen(false)}
+              className="hover:text-blue-400"
             >
-            Portfolio
-          </a>
-        </div>
-      )}
+              Portfolio
+            </NavLink>
+          </div>
+        )}
       </nav>
     </div>
   )

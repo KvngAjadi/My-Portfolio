@@ -3,7 +3,7 @@ import Button from './Button'
 
 const Projects = () => {
   return (
-    <div className='flex flex-col'>
+    <div className='flex flex-col mb-10'>
         <div className='flex flex-col mt-10'>
             <h1 className='text-purple-950 font-space font-bold text-4xl text-center mt-10'>Projects</h1>
             <div className='flex flex-col items-center mt-4'>
@@ -14,7 +14,7 @@ const Projects = () => {
         <div className='flex md:flex-row flex-col md:pl-10 gap-10 mt-10 items-center'>
         <div className='flex flex-col'>
             <h1 className='text-3xl font-space font-bold text-purple pb-5'>Techty</h1>
-            <div className='flex flex-row md:flex-row gap-5'>
+            <div className='flex md:flex-row gap-5'>
                     <Button
                         name="HTML"
                         style={
