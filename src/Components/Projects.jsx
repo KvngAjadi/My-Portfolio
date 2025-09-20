@@ -3,7 +3,7 @@ import Button from './Button'
 
 const Projects = () => {
   return (
-    <div className='flex flex-col mb-10'>
+    <div className='flex flex-col mb-10 items-center'>
         <div className='flex flex-col mt-10'>
             <h1 className='text-purple-950 font-space font-bold text-4xl text-center mt-10'>Projects</h1>
             <div className='flex flex-col items-center mt-4'>
