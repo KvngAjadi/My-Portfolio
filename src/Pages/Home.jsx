@@ -26,7 +26,7 @@ const App = () => {
       <div className='bg-[#d3e1ee]'>
         <Form/>
       </div>
-      <div className='bg-purple-950 w-full px-5'>
+      <div className='bg-purple-950 w-full px-5 pb-20'>
     <Footer/>
       </div>
     </div>

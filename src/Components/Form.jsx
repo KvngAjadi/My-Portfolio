@@ -28,7 +28,7 @@ const Form = () => {
               </div>
               <div className='flex flex-col mt-3'>
                 <label htmlFor="" className='text-[17px] font-normal font-space text-purple-950'>Message</label>
-                <textarea name="Message" id="feedback" placeholder='Enter your message' className='w-143 h-50 bg-purple-100 rounded-md font-space mt-1'></textarea>
+                <textarea name="Message" id="feedback" placeholder='Enter your message' className='w-143 h-50 bg-purple-100 rounded-md font-space mt-1 pl-3'></textarea>
               </div>
               <div className='flex items-center mt-5'>
                 <input id="subscribe" type='checkbox' className='h-4 w-4 text-purple-950 border-purple-500 rounded-lg focus:ring-purple-400' />
