@@ -1,9 +1,10 @@
+import { Linkedin } from "lucide-react";
 import React from "react";
 import { NavLink } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div>
+    <div className="">
       <div className="flex flex-col items-center mt-20 gap-5">
         <div className="relative flex items-center justify-center">
           {/* Background ring */}
@@ -29,7 +30,7 @@ const Footer = () => {
             Contact me
           </h1>
         </div>
-        <div className="flex gap-20">
+        <div className="flex flex-col md:flex-row gap-20">
           <div className="flex flex-col text-purple-500 gap-3">
             <p>+234 903 543 6039</p>
             <p className="underline">ajadiachiever@gmail.com</p>
@@ -38,7 +39,8 @@ const Footer = () => {
             <p>Lagos/Nigeria</p>
             <div className="flex text-purple-500">
               <img src="/twitter-x-line.png" alt="" />
-              <img src="/git.png" alt="" className="w-5 h-5" />
+              <img src="/git.png" alt="" className="w-5 h-5 pl-1" />
+              <Linkedin className="text-purple-500 pl-2 w-8 h-7" />
             </div>
           </div>
           <div className="flex flex-col text-purple-500 gap-3">
