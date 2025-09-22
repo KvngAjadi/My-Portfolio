@@ -34,13 +34,13 @@ const Hero = () => {
   <div className="absolute w-50 h-50 rounded-full bg-gradient-to-r from-purple-700 to-red-500 blur-2xl opacity-60"></div>
 
   {/* Inner circle (the ring effect) */}
-  <div className="absolute w-100 h-100 rounded-full border-8 border-purple-700 opacity-80"></div>
+  <div className="absolute md:w-100 w-70 h-100 rounded-full border-8 border-purple-700 opacity-80"></div>
 
   {/* Your Image / Content */}
   <img
     src="/Oga.png"
     alt="Profile"
-    className="relative z-10 w-90 h-90 rounded-full object-cover"
+    className="relative z-10 md:w-90 w-60 h-90 rounded-full object-cover"
   />
 </div>
 </div>

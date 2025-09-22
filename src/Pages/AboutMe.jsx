@@ -31,7 +31,7 @@ const AboutMe = () => {
             </div>
           </div>
         </div>
-        <div className='flex flex-col pl-20 h-auto pb-10 bg-white text-center md:text-left'>
+        <div className='flex flex-col md:pl-20 h-auto pb-10 bg-white text-center md:text-left'>
           <div>
             <h1 className='font-space font-bold text-3xl mt-30'>Message from <span className='font-space font-bold text-3xl text-[#28D08A]'>Founder</span></h1>
           </div>

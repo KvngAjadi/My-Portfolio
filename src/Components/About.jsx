@@ -14,8 +14,8 @@ const About = () => {
         <h1 className="text-purple-950 font-space font-bold text-5xl text-center mt-5">
           ABOUT ME
         </h1>
-          <h1 className="font-space text-purple-700 font-bold text-5xl text-center">Ajadi Sodiq Olasunkanmi.</h1>
-        <p className="text-[20px] text-md font-normal font-space text-purple-950">
+          <h1 className="font-space text-purple-700 font-bold md:text-5xl text-4xl text-center">Ajadi Sodiq Olasunkanmi.</h1>
+        <p className="md:text-[20px] text-[17px] text-md font-normal font-space text-purple-950">
           I started my software journey with a craving for creativity, <br />
           I want to contribute to making the technological advancement <br />
           seamless. I learn to love the process of creating something from the crash.<br />

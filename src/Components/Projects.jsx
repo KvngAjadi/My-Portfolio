@@ -18,25 +18,25 @@ const Projects = () => {
                     <Button
                         name="HTML"
                         style={
-                          "bg-purple-700 hover:bg-white hover:text-blue-700 text-[15px] font-space p-3 items-center flex justify-center text-white rounded-md md:w-20 w-7 h-10 font-semibold"
+                          "bg-purple-700 hover:bg-white hover:text-blue-700 text-[15px] font-space p-3 items-center flex justify-center text-white rounded-md md:w-20 w-12 h-10 font-semibold"
                         }
                       />
                     <Button
                         name="CSS"
                         style={
-                          "bg-white hover:bg-purple-700 hover:text-white text-[15px] font-space p-3 items-center flex justify-center text-purple-700 rounded-md md:w-20 w-7 h-10 font-semibold"
+                          "bg-white hover:bg-purple-700 hover:text-white text-[15px] font-space p-3 items-center flex justify-center text-purple-700 rounded-md md:w-20 w-12 h-10 font-semibold"
                         }
                       />
                       <Button
                         name="Javascript"
                         style={
-                          "bg-purple-700 hover:bg-white hover:text-blue-700 text-[15px] font-space p-2 items-center flex justify-center text-white rounded-md md:w-25 w-7 h-10 font-semibold"
+                          "bg-purple-700 hover:bg-white hover:text-blue-700 text-[15px] font-space p-2 items-center flex justify-center text-white rounded-md md:w-25 w-15 h-10 font-semibold"
                         }
                       />
                     <Button
                         name="React"
                         style={
-                          "bg-white hover:bg-purple-700 hover:text-white text-[15px] font-space p-3 items-center flex justify-center text-purple-700 rounded-md md:w-20 w-7 h-10 font-semibold"
+                          "bg-white hover:bg-purple-700 hover:text-white text-[15px] font-space p-3 items-center flex justify-center text-purple-700 rounded-md md:w-20 w-12 h-10 font-semibold"
                         }
                       />
                   </div>
@@ -73,25 +73,25 @@ const Projects = () => {
                     <Button
                         name="HTML"
                         style={
-                          "bg-purple-700 hover:bg-white hover:text-blue-700 text-[15px] font-space p-3 items-center flex justify-center text-white rounded-md w-7 md:w-20 h-10 font-semibold"
+                          "bg-purple-700 hover:bg-white hover:text-blue-700 text-[15px] font-space p-3 items-center flex justify-center text-white rounded-md w-12 md:w-20 h-10 font-semibold"
                         }
                       />
                     <Button
                         name="CSS"
                         style={
-                          "bg-white hover:bg-purple-700 hover:text-white text-[15px] font-space p-3 items-center flex justify-center text-purple-700 rounded-md w-7 md:w-20 h-10 font-semibold"
+                          "bg-white hover:bg-purple-700 hover:text-white text-[15px] font-space p-3 items-center flex justify-center text-purple-700 rounded-md w-12 md:w-20 h-10 font-semibold"
                         }
                       />
                       <Button
                         name="Javascript"
                         style={
-                          "bg-purple-700 hover:bg-white hover:text-blue-700 text-[15px] font-space p-2 items-center flex justify-center text-white rounded-md w-7 md:w-25 h-10 font-semibold"
+                          "bg-purple-700 hover:bg-white hover:text-blue-700 text-[15px] font-space p-2 items-center flex justify-center text-white rounded-md w-15 md:w-25 h-10 font-semibold"
                         }
                       />
                     <Button
                         name="React"
                         style={
-                          "bg-white hover:bg-purple-700 hover:text-white text-[15px] font-space p-3 items-center flex justify-center text-purple-700 rounded-md w-7 md:w-20 h-10 font-semibold"
+                          "bg-white hover:bg-purple-700 hover:text-white text-[15px] font-space p-3 items-center flex justify-center text-purple-700 rounded-md w-12 md:w-20 h-10 font-semibold"
                         }
                       />
                   </div>
@@ -121,25 +121,25 @@ const Projects = () => {
                     <Button
                         name="HTML"
                         style={
-                          "bg-purple-700 hover:bg-white hover:text-blue-700 text-[15px] font-space p-3 items-center flex justify-center text-white rounded-md w-7 md:w-20 h-10 font-semibold"
+                          "bg-purple-700 hover:bg-white hover:text-blue-700 text-[15px] font-space p-3 items-center flex justify-center text-white rounded-md w-12 md:w-20 h-10 font-semibold"
                         }
                       />
                     <Button
                         name="CSS"
                         style={
-                          "bg-white hover:bg-purple-700 hover:text-white text-[15px] font-space p-3 items-center flex justify-center text-purple-700 rounded-md w-7 md:w-20 h-10 font-semibold"
+                          "bg-white hover:bg-purple-700 hover:text-white text-[15px] font-space p-3 items-center flex justify-center text-purple-700 rounded-md w-12 md:w-20 h-10 font-semibold"
                         }
                       />
                       <Button
                         name="Javascript"
                         style={
-                          "bg-purple-700 hover:bg-white hover:text-blue-700 text-[15px] font-space p-2 items-center flex justify-center text-white rounded-md w-7 md:w-25 h-10 font-semibold"
+                          "bg-purple-700 hover:bg-white hover:text-blue-700 text-[15px] font-space p-2 items-center flex justify-center text-white rounded-md w-15 md:w-25 h-10 font-semibold"
                         }
                       />
                     <Button
                         name="React"
                         style={
-                          "bg-white hover:bg-purple-700 hover:text-white text-[15px] font-space p-3 items-center flex justify-center text-purple-700 rounded-md w-7 md:w-20 h-10 font-semibold"
+                          "bg-white hover:bg-purple-700 hover:text-white text-[15px] font-space p-3 items-center flex justify-center text-purple-700 rounded-md w-12 md:w-20 h-10 font-semibold"
                         }
                       />
                   </div>
@@ -176,25 +176,25 @@ const Projects = () => {
                     <Button
                         name="HTML"
                         style={
-                          "bg-purple-700 hover:bg-white hover:text-blue-700 text-[15px] font-space p-3 items-center flex justify-center text-white rounded-md w-20 h-10 font-semibold"
+                          "bg-purple-700 hover:bg-white hover:text-blue-700 text-[15px] font-space p-3 items-center flex justify-center text-white rounded-md w-12 md:w-20 h-10 font-semibold"
                         }
                       />
                     <Button
                         name="CSS"
                         style={
-                          "bg-white hover:bg-purple-700 hover:text-white text-[15px] font-space p-3 items-center flex justify-center text-purple-700 rounded-md w-20 h-10 font-semibold"
+                          "bg-white hover:bg-purple-700 hover:text-white text-[15px] font-space p-3 items-center flex justify-center text-purple-700 rounded-md w-12 md:w-20 h-10 font-semibold"
                         }
                       />
                       <Button
                         name="Javascript"
                         style={
-                          "bg-purple-700 hover:bg-white hover:text-blue-700 text-[15px] font-space p-2 items-center flex justify-center text-white rounded-md w-25 h-10 font-semibold"
+                          "bg-purple-700 hover:bg-white hover:text-blue-700 text-[15px] font-space p-2 items-center flex justify-center text-white rounded-md w-15 md:w-25 h-10 font-semibold"
                         }
                       />
                     <Button
                         name="React"
                         style={
-                          "bg-white hover:bg-purple-700 hover:text-white text-[15px] font-space p-3 items-center flex justify-center text-purple-700 rounded-md w-20 h-10 font-semibold"
+                          "bg-white hover:bg-purple-700 hover:text-white text-[15px] font-space p-3 items-center flex justify-center text-purple-700 rounded-md w-12 md:w-20 h-10 font-semibold"
                         }
                       />
                   </div>
@@ -205,13 +205,13 @@ const Projects = () => {
                     <Button
                         name="View Github"
                         style={
-                          "bg-purple-700 hover:bg-white hover:text-blue-700 text-[15px] font-space p-3 items-center flex justify-center text-white rounded-md w-40 h-10 font-semibold"
+                          "bg-purple-700 hover:bg-white hover:text-blue-700 text-[15px] font-space p-3 items-center flex justify-center text-white rounded-md w-20 md:w-40 h-10 font-semibold"
                         }
                       />
                     <Button
                         name="View project"
                         style={
-                          "bg-transparent hover:bg-purple-700 hover:text-white text-[15px] font-space p-3 items-center flex justify-center text-purple-700 rounded-md w-40 h-10 font-semibold"
+                          "bg-transparent hover:bg-purple-700 hover:text-white text-[15px] font-space p-3 items-center flex justify-center text-purple-700 rounded-md w-20 md:w-40 h-10 font-semibold"
                         }
                       />  
                   </div>      
