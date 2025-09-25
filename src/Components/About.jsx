@@ -7,7 +7,7 @@ const About = () => {
         <img
           src="/Hero-pic.jpg"
           alt="My photo"
-          className="w-140 hidden md:block h-120 rounded-lg mt-10 border-3 border-purple-950 bg-cover"
+          className="w-140 hidden md:block h-120 rounded-lg mt-40 border-3 border-purple-950 bg-cover"
         />
       </div>
       <div className="flex flex-col gap-7 mt-40">
