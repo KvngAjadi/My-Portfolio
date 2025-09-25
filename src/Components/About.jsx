@@ -7,15 +7,15 @@ const About = () => {
         <img
           src="/Hero-pic.jpg"
           alt="My photo"
-          className="w-140 hidden md:block rounded-tl-full h-150 mt-10 border-3 border-purple-950 bg-cover"
+          className="w-140 hidden md:block h-120 rounded-lg mt-10 border-3 border-purple-950 bg-cover"
         />
       </div>
       <div className="flex flex-col gap-7 mt-40">
-        <h1 className="text-purple-950 font-space font-bold text-5xl text-center mt-5">
+        <h1 className="text-purple-950 font-space font-bold md:text-5xl text-3xl text-center mt-5">
           ABOUT ME
         </h1>
-          <h1 className="font-space text-purple-700 font-bold md:text-5xl text-4xl text-center">Ajadi Sodiq Olasunkanmi.</h1>
-        <p className="md:text-[20px] text-[17px] text-md font-normal font-space text-purple-950">
+          <h1 className="font-space text-purple-700 font-bold md:text-5xl text-center">Ajadi Sodiq Olasunkanmi.</h1>
+        <p className="text-[20px] text-md font-normal font-space text-purple-950">
           I started my software journey with a craving for creativity, <br />
           I want to contribute to making the technological advancement <br />
           seamless. I learn to love the process of creating something from the crash.<br />

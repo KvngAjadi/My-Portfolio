@@ -40,7 +40,7 @@ const NavBar = () => {
             to="/portfolio"
             className="transition delay-50 duration-300 ease-in-out hover:translate-y-1 hover:scale-110"
           >
-            Portfolio
+            Contact
           </NavLink>
         </div>
 
@@ -80,7 +80,7 @@ const NavBar = () => {
               onClick={() => setIsOpen(false)}
               className="hover:text-blue-400"
             >
-              Portfolio
+              Contact
             </NavLink>
           </div>
         )}
